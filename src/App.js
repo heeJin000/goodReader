@@ -1,23 +1,25 @@
-import React, {Component} from 'react';
-import Title from "./Components/Title";
-import Content from "./Components/Content.js";
-import ApiCall from "./Components/ApiCall.js";
+import logo from './logo.svg';
 import './App.css';
-import { render } from 'react-dom';
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      
-        <Title></Title>        
-      
-        <Content></Content>
-
-        <Content></Content>
-
-        <ApiCall></ApiCall>
-
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
+
 export default App;
