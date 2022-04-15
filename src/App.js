@@ -27,7 +27,7 @@ const App = () => {
       <header className="App-header">
         
         <p>
-          참 잘 읽었어요!
+          참 잘 읽었어요! Good Job!
         </p>
         
       </header>
