@@ -7,7 +7,7 @@ function App() {
         
         <p>
           참 잘 읽었어요! Good Job!
-          test
+          
         </p>
         
       </header>
