@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 
-const Content = () => {
-    return(
+class Content extends Component{
+    render(){
+        return(
             <header>
                 <p> row </p>
             </header>
-    );
-    
+        );
+    }
 }
 export default Content;
