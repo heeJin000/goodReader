@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Title from "./Components/Title";
 import Content from "./Components/Content.js";
+import TestFunction from "./Components/TestFunction.js";
 import './App.css';
 import { render } from 'react-dom';
 
-class App extends Component {
-  render(){
+const App = () => {
   return (
     <div className="App">
       
@@ -14,11 +14,10 @@ class App extends Component {
         <Content></Content>
 
         <Content></Content>
-      
+
+        <TestFunction></TestFunction>
 
     </div>
   );
-  }
 }
-
 export default App;
