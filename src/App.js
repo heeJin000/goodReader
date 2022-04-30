@@ -3,12 +3,16 @@ import React, {Component} from 'react';
 import Title from "./Components/Title";
 import Content from "./Components/Content.js";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import ApiCall from "./Components/ApiCall.js";
 import TestFunction from "./Components/TestFunction.js";
 =======
 >>>>>>> 41a79c4a (first commit)
 =======
 >>>>>>> 28341bb7 (component commit)
+=======
+import TestFunction from "./Components/TestFunction.js";
+>>>>>>> b02149a2 (change to function form)
 import './App.css';
 import { render } from 'react-dom';
 
@@ -26,6 +30,7 @@ const App = () => {
 
         <Content></Content>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         <TestFunction></TestFunction>
@@ -42,6 +47,10 @@ const App = () => {
 >>>>>>> 41a79c4a (first commit)
 =======
       
+=======
+
+        <TestFunction></TestFunction>
+>>>>>>> b02149a2 (change to function form)
 
 >>>>>>> 28341bb7 (component commit)
     </div>
