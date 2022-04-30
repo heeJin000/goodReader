@@ -4,6 +4,7 @@ import Title from "./Components/Title";
 import Content from "./Components/Content.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import ApiCall from "./Components/ApiCall.js";
 import TestFunction from "./Components/TestFunction.js";
 =======
@@ -13,6 +14,9 @@ import TestFunction from "./Components/TestFunction.js";
 =======
 import TestFunction from "./Components/TestFunction.js";
 >>>>>>> b02149a2 (change to function form)
+=======
+import ApiCall from "./Components/ApiCall.js";
+>>>>>>> 8f72024c (api)
 import './App.css';
 import { render } from 'react-dom';
 
@@ -49,8 +53,12 @@ const App = () => {
       
 =======
 
+<<<<<<< HEAD
         <TestFunction></TestFunction>
 >>>>>>> b02149a2 (change to function form)
+=======
+        <ApiCall></ApiCall>
+>>>>>>> 8f72024c (api)
 
 >>>>>>> 28341bb7 (component commit)
     </div>
