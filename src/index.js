@@ -1,8 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 const rootNode = document.getElementById('root');
 
@@ -11,6 +12,8 @@ ReactDOM.createRoot(rootNode).render(
     <App />
   </React.StrictMode>,
 );
+
+ReactDOM.render( <App /> , document.getElementById('root'));
 
 //ReactDOM.render( <App /> , document.getElementById('root'));
 

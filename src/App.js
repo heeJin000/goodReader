@@ -1,17 +1,20 @@
-<<<<<<< HEAD
 import React, {Component} from 'react';
 import Title from "./Components/Title";
 import Content from "./Components/Content.js";
 import ApiCall from "./Components/ApiCall.js";
-=======
->>>>>>> 41a79c4a (first commit)
 import './App.css';
 import { render } from 'react-dom';
 
 const App = () => {
+import React, {Component} from 'react';
+import './App.css';
+import { render } from 'react-dom';
+
+class App extends Component {
+  render(){
   return (
     <div className="App">
-<<<<<<< HEAD
+
       
         <Title></Title>        
       
@@ -21,17 +24,19 @@ const App = () => {
 
         <ApiCall></ApiCall>
 
-=======
+
       <header className="App-header">
         
         <p>
-          참 잘 읽었어요! Good Job!
+          Hello World
           
         </p>
         
       </header>
->>>>>>> 41a79c4a (first commit)
+
     </div>
   );
+  }
+}
 }
 export default App;
