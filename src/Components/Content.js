@@ -6,8 +6,5 @@ const Content = () => {
                 <p> row </p>
             </header>
     );
-    
-
-
 }
 export default Content;
